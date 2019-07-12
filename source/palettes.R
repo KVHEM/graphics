@@ -1,5 +1,6 @@
-# Various palettes and a function to test them
-
+### Various palettes and a function to test them
+### The test function includes a grayscale conversion
+### Pallete source: https://www.canva.com/learn/100-color-combinations/
 
 ### Current Palettes and color sets
 

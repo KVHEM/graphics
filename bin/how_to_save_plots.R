@@ -1,3 +1,7 @@
+####  How to save plots contains examples of plot saving options
+####  because the saved graphics can differ dramatically to the preview
+####  The options are for the file format png with dpi of 600
+
 source('./source/libs.R')
 source('./source/themes.R')
 source('./source/palettes.R')
