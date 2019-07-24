@@ -131,7 +131,7 @@ test_palette <- function(palette_name, n = 4){
 ### Older Palettes
 
 rgb_palette_RdBu <- colorRampPalette(rev(c('#d73027','#f46d43','#fdae61','#fee090','#fef0d9','#e0f3f8','#abd9e9','#74add1','#4575b4')), space = "rgb")
-gradient_RdBu <- rgb.palette.RdBu(100)
+gradient_RdBu <- rgb_palette_RdBu(100)
 my_drought_col <- colorRampPalette(c('#8c510a','#d8b365','#f6e8c3','#f5f5f5','skyblue1','skyblue3','skyblue4'), interpolate = "spline", space = "rgb")
 my_purples_uneven <- colorRampPalette(c(rep('#edf8fb',6),'#bfd3e6','#9ebcda','#8c96c6','#8c6bb1'), space = "rgb")
 my_reds <- colorRampPalette(c('#fef0d9','#fdd49e','#fdbb84','#fc8d59','#ef6548','#d7301f','#990000'), space = "rgb")
