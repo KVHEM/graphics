@@ -18,7 +18,6 @@ my_proj <- "+proj=robin"
 #my_proj <- "+proj=longlat"
 #my_proj <- "+proj=laea"
 
-
 #https://learn.r-journalism.com/en/mapping/static_maps/static-maps/
 #https://www.computerworld.com/article/3038270/create-maps-in-r-in-10-fairly-easy-steps.html
 #https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/make-maps-with-ggplot-in-R/
@@ -28,8 +27,6 @@ my_proj <- "+proj=robin"
 #https://www.r-spatial.org/r/2018/10/25/ggplot2-sf-2.html
 #https://www.r-spatial.org/r/2018/10/25/ggplot2-sf-3.html
 #https://bookdown.org/rdpeng/RProgDA/mapping.html
-
-
 
 # Blank ggplot themes for maps
 theme_map <- list(theme(panel.background = element_blank(),
@@ -109,7 +106,6 @@ europe <- ne_countries(scale = "medium",
 
 europe <- europe %>% filter(name != "Russia")
 
-
 ggplot(data = world) +
   geom_sf() +
   coord_sf(crs = my_proj) +
@@ -159,14 +155,6 @@ tm_shape(world) +
 tm_shape(world) +
   tm_fill() +
   tm_borders() 
-
-
-
-
-
-
-
-
 
 ###############################################
 #Using shapefiles
